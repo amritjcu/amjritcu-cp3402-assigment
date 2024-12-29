@@ -10,7 +10,7 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
     volumes:
-      - ./wordpress:/var/www/html
+      - ./astra-child:/var/www/html/wp-content/themes/astra-child
 
   db:
     image: mysql:8.0
